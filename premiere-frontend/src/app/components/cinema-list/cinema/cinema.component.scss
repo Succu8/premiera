@@ -1,0 +1,39 @@
+.cinema-poster .img-area .images {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border-radius: 30px;
+}
+
+.description .title h1 {
+  font-size: 30px;
+}
+
+.description .detail-info {
+  margin-top: 20px;
+}
+
+.info-nav-bar {
+  margin-top: 25px;
+}
+
+.info-nav-bar .nav-item .nav-link {
+  color: #111111;
+  font-weight: 700;
+  font-size: 12px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif ;
+}
+
+.time-zone {
+  font-size: 14px !important;
+}
+
+.time-zone button {
+  font-size: 14px !important;
+}
+
+.cinema-schedule{
+  margin-top: 20px !important;
+  font-size: 15px !important;
+}

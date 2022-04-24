@@ -1,0 +1,38 @@
+<div class="container">
+  <app-navbar></app-navbar>
+  <div class="movie-detail">
+    <div class="row container">
+
+      <div class="img-area">
+        <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/d/dc/Morbius_%28poster%29.jpg/345px-Morbius_%28poster%29.jpg" class="rounded float-start" alt="img">
+      </div>
+
+
+      <div class="movie-description">
+        <span class="movie-title"><h1><b>Morbius</b></h1></span>
+        <span class="movie-genre"><h4>horror, science fiction, action, thriller, fantasy</h4></span>
+        <span class="movie-premiere"><h4>Premiere : 1 апреля, 2022 </h4></span>
+        <span class="movie-duration"><h4>Duration : 108 минут</h4></span>
+        <span class="movie-director"><h4>Director : Даниэль Эспиноса</h4></span>
+        <span class="movie-actor"><h4>Actor : Джаред Лето, Майкл Китон, Адриа Архона, Джаред Харрис, Мэтт Смит, Тайриз Гибсон</h4></span>
+
+        <!--        <ngb-rating [(rate)]="currentRate"></ngb-rating>-->
+        <!--        <hr>-->
+        <!--        <pre>Rate: <b>{{currentRate}}</b></pre>-->
+
+      </div>
+
+    </div>
+    <div class="description">
+      <span><p>Michael Morbius has been suffering from a rare blood disease since childhood
+        and has devoted his entire adult life to finding a cure. At some point, Michael sees a possible salvation in the blood
+        of bats and decides on a risky experiment. The experience causes an unexpected reaction: by contacting the diseased cells,
+        he changes the body of Morbius, turning him into a bloodthirsty monster.</p></span>
+    </div>
+  </div>
+  <div class="movie-schedule">
+    <app-movie-schedule></app-movie-schedule>
+  </div>
+  <app-footer-main></app-footer-main>
+</div>
+<router-outlet></router-outlet>

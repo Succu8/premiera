@@ -1,0 +1,18 @@
+<div class="container">
+  <app-navbar></app-navbar>
+  <div class="title">
+    <h1>Admin page</h1>
+  </div>
+  <div class="body-container">
+    <nav>
+      <div class="nav nav-tabs" id="nav-tab" role="tablist">
+        <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true" (click)="showCinema()">Cinema</button>
+        <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false" (click)="showMovie()">Movie</button>
+        <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"  (click)="showSchedule()">Schedule</button>
+      </div>
+    </nav>
+  </div>
+  <router-outlet></router-outlet>
+  <app-footer-main></app-footer-main>
+</div>
+

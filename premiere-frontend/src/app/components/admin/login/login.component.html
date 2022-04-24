@@ -1,0 +1,25 @@
+<div class='eschool'>
+  <h1 style='font-size:80px; font-weight:bold; font-family:Verdana;'>e-School</h1>
+</div>
+
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<div class="container bootstrap snippets bootdey">
+  <form #loginForm='ngForm'>
+    <div class="lc-block col-md-4 col-md-offset-4 toggled" id="l-login">
+      <div class="lcb-float"><i class="fa fa-users"></i></div>
+      <div class="form-group" for="username">
+        <input type="text" ngModel name="username" class="form-control" id="username" placeholder="Username">
+      </div>
+      <div class="form-group" for="password">
+        <input type="password" ngModel name="password" class="form-control" id="password" placeholder="Password">
+      </div>
+      <div class="clearfix"></div>
+      <div class='container-submit-button'>
+        <button (click)="loginCheck(loginForm)" type="submit" id='submit-button'
+          class="btn btn-block btn-primary btn-float m-t-25">Login</button>
+      </div>
+      <ul class="login-navigation">
+      </ul>
+    </div>
+  </form>
+</div>
